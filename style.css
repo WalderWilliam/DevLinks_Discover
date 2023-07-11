@@ -87,6 +87,12 @@ body * {
 
   cursor: pointer;
   animation: slide 0.4s forwards;
+  transition: all 0.2s;
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
+  
 }
 
 .light #switch button {
